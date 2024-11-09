@@ -23,11 +23,13 @@
     font-family: 'Arial', sans-serif;
 }
 
-ul>li{
-    list-style-type: none;
+ul>a{
+    text-decoration-line: none;
+	color: black;
     line-height: 25px;
     font-weight: 500;
 }
+
 
 .container2{
     background-color:  rgb(255, 255, 255);
