@@ -1,56 +1,55 @@
-*{
-    padding: 0;
-    margin: 0;
+body{
+	background-color: rgb(204, 204, 204);
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+ul{
+	padding-left:20px;
+}
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration-line: none;
+	color:black;
 }
 
-#main-container{
-    background-color: rgb(204, 204, 204);
-    height: 175vh;
-    width: 100vw;
+.container1{
+	background-color:white;
+	border:2px solid black;
+	border-radius:8px;
+	width:90%;
+	display:flex;
+	flex-direction:column;
+	padding:0px;
+	margin:auto;
+	
 }
-
-.container{
-    background-color: white;
-    padding: 20px;
-    margin: 0px 30px 0px 30px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-.text{
-    text-align: center;
-    padding: 10px 0px 35px 0px;
-    font-family: 'Arial', sans-serif;
-}
-
-ul li a{
-    text-decoration-line: none;
-	color: black;
-    line-height: 25px;
-    font-weight: 500;
-}
-
-
 .container2{
-    background-color:  rgb(255, 255, 255);
-    border: 2px solid black;
-    padding: 40px 20px 40px 20px;
-    margin: 0px 20px 0px 20px;
-    border-radius: 10px;
+	background-color:white;
+	border:2px solid black;
+	border-radius:8px;
+	width:80%;
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+	padding:2%;
+	margin:auto;
 }
-
-p{
-    margin-bottom: 20px;
+.player_one{
+	background-color:white;
+	padding:0px;
+	border-radius:5px;
 }
-
-.container2 video{
-	background-color: rgb(255, 255, 255);
-    /* margin-left: 260px; */
-    height: 100%;
-    width: 100%;
+.player_two{
+	background-color:white;
+	padding:0px;
+	border-radius:5px;
 }
-
-.container2 audio{
-    width: 100%;
+audio{
+	width:100%;
 }
-
