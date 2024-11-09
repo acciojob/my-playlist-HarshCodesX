@@ -23,7 +23,7 @@
     font-family: 'Arial', sans-serif;
 }
 
-ul>a{
+ul li a{
     text-decoration-line: none;
 	color: black;
     line-height: 25px;
