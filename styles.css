@@ -30,7 +30,7 @@ h1{
     padding: 20px 15px 20px 15px;
 }
 
-.list{
+.list-container ul li{
     list-style-type: none;
     line-height: 25px;
 }
@@ -51,7 +51,8 @@ h2{
 
 .player_one{
     padding: 15px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+	background-color: white;
     border: 2px solid black;
     border-radius: 10px;
     width: 70%;
@@ -63,6 +64,12 @@ h2{
     width: 100%;
     padding: 15px;
     margin: auto;
+}
+
+.playerTwo{
+	background-color: white;
+	padding: 2px;
+	border-radius: 1px;
 }
 
 .player_two p{
