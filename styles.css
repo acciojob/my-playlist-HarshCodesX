@@ -1,85 +1,28 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    height: 100%;
-    width: 100%;
-    background-color: white;
-}
-
-.container{
-    background-color: rgb(204, 204, 204);
-    height: 100%;
-    width: 100%;
-}
 
 h1{
-    padding-top: 20px;
-    text-align: center;
+	text-align:center;
 }
-
-.list-container{
-    margin: auto;
-    border: 1px solid black;
-    margin: 25px 35px 20px 35px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    padding: 20px 15px 20px 15px;
+body{
+	background-color:#cccccc;
 }
-
-.list-container ul li{
-    list-style-type: none;
-    line-height: 25px;
-}
-
-.list-container ul li{
-	color:green;
-}
-
-.list-container ul li a{
-    text-decoration-line: none;
-    color: black;
-}
-
-h2{
-    text-align: center;
-    margin-bottom: 15px;
-}
-
 .player_one{
-    padding: 15px;
-    /* background-color: rgb(255, 255, 255); */
-	background-color: white;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 70%;
-    margin: auto;
+	background-color:white;
+	padding-left:-1px;
+	border-radius:15px;
 }
-
-.player_one video{
-    height: 100%;
-    width: 100%;
-    padding: 15px;
-    margin: auto;
+li{ list-style-type: none;
+   padding-bottom:10px;
+   margin-left:0px;
 }
-
-.playerTwo{
-	background-color: white;
-	padding: 2px;
-	border-radius: 1px;
+h2{
+	text-align:center;
 }
-
-.player_two p{
-    margin-left: 15px;
-    margin-bottom: 10px;
+.player_two{
+	background-color:white;
+	padding-left:5px;
+	border-radius:15px;
 }
-
-.player_two audio{
-    width: 100%;
-    border-radius: 2px;
-    padding: 2px;
+a{
+	text-decoration-line:none;
 }
-
+	
