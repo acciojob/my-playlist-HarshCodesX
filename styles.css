@@ -1,84 +1,85 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     height: 100%;
     width: 100%;
-    background-color: rgb(204, 204, 204); /* Ensure background color is set */
+    background-color: white;
 }
 
-.container {
+.container{
     background-color: rgb(204, 204, 204);
     height: 100%;
     width: 100%;
-    padding: 20px;
 }
 
-h1 {
+h1{
     padding-top: 20px;
     text-align: center;
 }
 
-.list-container {
+.list-container{
     margin: auto;
     border: 1px solid black;
     margin: 25px 35px 20px 35px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    padding: 20px 15px;
+    padding: 20px 15px 20px 15px;
 }
 
-.list-container ul {
+.list-container ul li{
     list-style-type: none;
-}
-
-.list-container ul li {
     line-height: 25px;
-    color: green;
 }
 
-.list-container ul li a {
-    text-decoration: none;
+.list-container ul li{
+	color:green;
+}
+
+.list-container ul li a{
+    text-decoration-line: none;
     color: black;
 }
 
-h2 {
+h2{
     text-align: center;
     margin-bottom: 15px;
 }
 
-.player_one {
+.player_one{
     padding: 15px;
-    background-color: white;
+    /* background-color: rgb(255, 255, 255); */
+	background-color: white;
     border: 2px solid black;
     border-radius: 10px;
     width: 70%;
     margin: auto;
 }
 
-.player_one video {
+.player_one video{
     height: 100%;
     width: 100%;
     padding: 15px;
     margin: auto;
 }
 
-.player_two {
-    background-color: white;
-    padding: 2px;
-    border-radius: 1px;
+.playerTwo{
+	background-color: white;
+	padding: 2px;
+	border-radius: 1px;
 }
 
-.player_two p {
+.player_two p{
     margin-left: 15px;
     margin-bottom: 10px;
 }
 
-.player_two audio {
+.player_two audio{
     width: 100%;
     border-radius: 2px;
     padding: 2px;
 }
+
