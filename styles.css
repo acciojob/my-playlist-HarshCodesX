@@ -7,13 +7,13 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(204, 204, 204);
 }
 
 .container{
     background-color: rgb(204, 204, 204);
     height: 100%;
-    width: 60%;
+    width: 100%;
 }
 
 h1{
