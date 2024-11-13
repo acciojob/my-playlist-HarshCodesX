@@ -30,9 +30,13 @@ h1{
     padding: 20px 15px 20px 15px;
 }
 
-.list-container ul li{
+.list{
     list-style-type: none;
     line-height: 25px;
+}
+
+.list-container ul li{
+	color:green;
 }
 
 .list-container ul li a{
